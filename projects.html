@@ -5,47 +5,87 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Projects · Weihao Cheng</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/site.js"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="nav">
-      <div class="brand">Weihao Cheng</div>
-      <div>
-        <a href="index.html">Home</a>
-        <a href="publications.html">Publications</a>
-        <a href="projects.html">Projects</a>
+
+<div class="topbar">
+  <div class="inner">
+    <div class="brand">Projects</div>
+    <button class="menuBtn" onclick="toggleMenu()">☰</button>
+    <div class="navlinks" id="navlinks">
+      <a href="index.html">Homepage</a>
+      <a href="about.html">About Me</a>
+      <a href="internships.html">Experience</a>
+      <a href="news.html">News</a>
+      <a href="reports.html">Reports</a>
+      <a href="publications.html">Publications</a>
+      <a class="active" href="projects.html">Projects</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <aside class="sidebar">
+    <img class="avatar" src="assets/avatar.jpg" alt="avatar" />
+    <h3 class="name">Weihao<br/>Cheng</h3>
+    <div class="handle">VhoCheng</div>
+    <p class="bio">Projects & Competitions</p>
+    <div class="meta">
+      <div class="row">💻 <a href="https://github.com/VhoCheng" target="_blank" rel="noreferrer">GitHub</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <h1>Projects</h1>
+
+    <div class="section">
+      <h2>Open-source / Research</h2>
+
+      <div class="item">
+        <div class="title"><a href="https://github.com/VhoCheng/PathLens" target="_blank" rel="noreferrer">PathLens</a> <span class="badge">Medical Reasoning</span></div>
+        <div class="desc">Lightweight & interpretable medical reasoning framework for clinical/pathology tasks.</div>
+      </div>
+
+      <div class="item">
+        <div class="title"><a href="https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models" target="_blank" rel="noreferrer">
+          Paper List for Medical Reasoning LLMs</a> <span class="badge">Survey</span></div>
+        <div class="desc">Curated paper list for medical reasoning, LLMs, and AI agents in healthcare.</div>
       </div>
     </div>
 
     <div class="section">
-      <h2>Projects</h2>
-      <div class="list">
+      <h2>Competitions</h2>
 
-        <div class="item">
-          <div class="title">PathLens</div>
-          <div class="meta">
-            Lightweight & interpretable medical reasoning framework for pathology/clinical decision support.
-          </div>
-          <div class="links" style="margin-top:6px">
-            <a href="https://github.com/VhoCheng/PathLens" target="_blank" rel="noreferrer">Repository →</a>
-          </div>
-        </div>
+      <div class="item">
+        <div class="title">2nd University ICT Industry-Education Integration Innovation Competition <span class="badge">National 3rd Prize</span></div>
+        <div class="desc">AI+ track · Research agent development: “智联研境” multimodal research assistant.</div>
+      </div>
 
-        <div class="item">
-          <div class="title">Paper List for Medical Reasoning LLMs</div>
-          <div class="meta">
-            Curated reading list covering medical reasoning, LLMs, and agent-based systems in healthcare.
-          </div>
-          <div class="links" style="margin-top:6px">
-            <a href="https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models" target="_blank" rel="noreferrer">Repository →</a>
-          </div>
-        </div>
+      <div class="item">
+        <div class="title">China College Students Mechanical Engineering Innovation & Creativity Competition <span class="badge">Zhejiang 2nd Prize</span></div>
+        <div class="desc">Intelligent manufacturing · Equipment & production line intelligent O&M · Team leader.</div>
+      </div>
 
+      <div class="item">
+        <div class="title">10th Zhejiang College Student Financial Innovation Competition <span class="badge">Bronze Award</span></div>
+        <div class="desc">Lead: “智投向导” — LLM-powered multi-dimensional stock value screening & risk control tool.</div>
       </div>
     </div>
 
-    <div class="footer">© <span id="y"></span> Weihao Cheng</div>
-  </div>
-  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+    <div class="section">
+      <h2>Conference Participation</h2>
+      <div class="item">
+        <div class="title">ICHEIM 2025 <span class="badge">Abstract Accepted</span></div>
+        <div class="desc">
+          Abstract accepted for: “Multidisciplinary Coupling-Driven Breakthrough and Industrial Practice of Automotive Electromagnetic Control Valve —
+          Empowering NEV Efficient Low-Carbon Transformation”. Invited youth scholar forum report.
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
 </body>
 </html>
