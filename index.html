@@ -4,112 +4,104 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Weihao Cheng</title>
-  <meta name="description" content="Weihao Cheng - Undergraduate at Hangzhou Dianzi University. Research: Non-invasive cardiac imaging, medical AI, LLMs, AI agents." />
   <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/site.js"></script>
 </head>
 <body>
-  <div class="container">
 
-    <div class="nav">
-      <div class="brand">Weihao Cheng</div>
-      <div>
-        <a href="index.html">Home</a>
-        <a href="publications.html">Publications</a>
-        <a href="projects.html">Projects</a>
-      </div>
+<div class="topbar">
+  <div class="inner">
+    <div class="brand">Homepage</div>
+    <button class="menuBtn" onclick="toggleMenu()">☰</button>
+    <div class="navlinks" id="navlinks">
+      <a class="active" href="index.html">Homepage</a>
+      <a href="about.html">About Me</a>
+      <a href="internships.html">Experience</a>
+      <a href="news.html">News</a>
+      <a href="reports.html">Reports</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <aside class="sidebar">
+    <img class="avatar" src="assets/avatar.jpg" alt="avatar" />
+    <h3 class="name">Weihao<br/>Cheng</h3>
+    <div class="handle">VhoCheng</div>
+    <p class="bio">Undergraduate in CE & CS (HDU)</p>
+
+    <div class="meta">
+      <div class="row">📍 <span>Hangzhou, Zhejiang</span></div>
+      <div class="row">🏫 <span>Hangzhou Dianzi University</span></div>
+      <div class="row">✉️ <a href="mailto:weihao_cheng@hdu.edu.cn">Email</a></div>
+      <div class="row">🎓 <a href="https://scholar.google.com/citations?user=Hi_tqZgAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a></div>
+      <div class="row">🔗 <a href="https://orcid.org/0009-0009-1891-4760" target="_blank" rel="noreferrer">ORCID</a></div>
+      <div class="row">💻 <a href="https://github.com/VhoCheng" target="_blank" rel="noreferrer">GitHub</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <h1>Weihao Cheng’s Homepage</h1>
+
+    <div class="section">
+      <h2>🧑‍🎓 About Me</h2>
+      <p>
+        I am an undergraduate student at <b>Hangzhou Dianzi University (HDU)</b>,
+        affiliated with the <b>School of Communication Engineering</b> and the
+        <b>School of Computer Science and Technology</b>.
+        My research interests include <b>non-invasive cardiac imaging</b>,
+        <b>medical image analysis</b>, <b>large language models</b>, and <b>AI agents</b>
+        for healthcare.
+      </p>
+      <p class="small">
+        Full list of publications and citations:
+        <a href="https://scholar.google.com/citations?user=Hi_tqZgAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a>.
+      </p>
     </div>
 
-    <div class="hero">
-      <div>
-        <h1>Weihao Cheng</h1>
-        <p class="subtitle">
-          Undergraduate student at <b>Hangzhou Dianzi University (HDU)</b><br/>
-          School of Communication Engineering & School of Computer Science and Technology
-        </p>
+    <div class="section">
+      <h2>🧠 Research Interests</h2>
+      <div class="item">• Non-invasive cardiac imaging <span class="badge">Cardiovascular</span></div>
+      <div class="item">• Medical image analysis <span class="badge">Diagnosis/Prognosis</span></div>
+      <div class="item">• Large Language Models in healthcare <span class="badge">LLMs</span></div>
+      <div class="item">• AI Agents for decision support <span class="badge">Agentic AI</span></div>
+    </div>
 
-        <div class="links">
-          <a href="https://github.com/VhoCheng" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=Hi_tqZgAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a href="https://orcid.org/0009-0009-1891-4760" target="_blank" rel="noreferrer">ORCID</a>
-          <a href="mailto:weihao_cheng@hdu.edu.cn">Email</a>
-        </div>
-
-        <div class="badges">
-          <span class="badge">Non-invasive Cardiac Imaging</span>
-          <span class="badge">Medical Image Analysis</span>
-          <span class="badge">Large Language Models</span>
-          <span class="badge">AI Agents</span>
-          <span class="badge">Cardiovascular AI</span>
-        </div>
-
-        <div class="section">
-          <h2>About</h2>
-          <div class="card">
-            I work on <b>non-invasive cardiac imaging</b> and <b>medical AI</b>, with a focus on clinically grounded
-            modeling and transparent reasoning. My interests also include <b>LLM-based medical reasoning</b> and
-            <b>agentic systems</b> for decision support and workflow automation in healthcare.
-          </div>
-        </div>
+    <div class="section">
+      <h2>📚 Selected Publications</h2>
+      <div class="item">
+        <div class="title">PNAS, 2025 <span class="badge">Journal</span></div>
+        <div class="desc">DOI: 10.1073/pnas.2529610122 — <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2529610122" target="_blank" rel="noreferrer">link</a></div>
       </div>
-
-      <div class="card">
-        <div class="section" style="margin-top:0">
-          <h2>Quick Links</h2>
-          <div class="list">
-            <div class="item">
-              <div class="title">PathLens</div>
-              <div class="meta">Lightweight & interpretable medical reasoning framework</div>
-              <div class="links" style="margin-top:6px">
-                <a href="https://github.com/VhoCheng/PathLens" target="_blank" rel="noreferrer">Repository →</a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="title">Paper List for Medical Reasoning LLMs</div>
-              <div class="meta">Curated reading list on medical reasoning, LLMs & agents</div>
-              <div class="links" style="margin-top:6px">
-                <a href="https://github.com/HovChen/Paper-List-for-Medical-Reasoning-Large-Language-Models" target="_blank" rel="noreferrer">Repository →</a>
-              </div>
-            </div>
-          </div>
-          <p class="subtitle" style="margin-top:14px">
-            Tip: keep this homepage minimal; put details in <a href="publications.html">Publications</a> and <a href="projects.html">Projects</a>.
-          </p>
-        </div>
+      <div class="item">
+        <div class="title">Australian Critical Care, 2025 <span class="badge">Journal</span></div>
+        <div class="desc">S1036-7314(25)00313-3 — <a href="https://www.australiancriticalcare.com/article/S1036-7314(25)00313-3/abstract" target="_blank" rel="noreferrer">link</a></div>
       </div>
     </div>
 
     <div class="section">
-      <h2>Selected Publications</h2>
-      <div class="list">
-        <div class="item">
-          <div class="title">PNAS (2025)</div>
-          <div class="meta">DOI: 10.1073/pnas.2529610122</div>
-          <div class="links" style="margin-top:6px">
-            <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2529610122" target="_blank" rel="noreferrer">View →</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="title">Australian Critical Care (2025)</div>
-          <div class="meta">Article: S1036-7314(25)00313-3</div>
-          <div class="links" style="margin-top:6px">
-            <a href="https://www.australiancriticalcare.com/article/S1036-7314(25)00313-3/abstract" target="_blank" rel="noreferrer">View →</a>
-          </div>
+      <h2>🏅 Highlights</h2>
+      <div class="item">
+        <div class="title">Software Copyright Granted (China) <span class="badge">2025</span></div>
+        <div class="desc">
+          Cardiovascular Multimodal Data Processing Platform v1.0 —
+          <a href="https://register.ccopyright.com.cn/accountDetails.html?flowNumber=2025R11L3100631&current=soft_register&time=1770454641189" target="_blank" rel="noreferrer">registry</a>
         </div>
       </div>
-      <p class="subtitle" style="margin-top:10px">
-        Full list: <a href="https://scholar.google.com/citations?user=Hi_tqZgAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a>
-      </p>
+      <div class="item">
+        <div class="title">ICHEIM 2025 <span class="badge">Invited Talk</span></div>
+        <div class="desc">Abstract accepted; invited youth scholar forum report on NEV low-carbon transformation.</div>
+      </div>
+      <div class="item">
+        <div class="title">National Competition Award <span class="badge">3rd Prize</span></div>
+        <div class="desc">2nd University ICT Industry-Education Innovation Competition (AI+ track): “智联研境” multimodal research assistant.</div>
+      </div>
     </div>
 
-    <div class="footer">
-      © <span id="y"></span> Weihao Cheng · Built with plain HTML/CSS · <span>Press <kbd>Cmd</kbd> + <kbd>R</kbd> if the page caches.</span>
-    </div>
+  </main>
+</div>
 
-  </div>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
