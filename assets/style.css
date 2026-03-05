@@ -141,25 +141,41 @@ section[id]{scroll-margin-top:80px}
   .nav{justify-content:flex-start}
 }
 
-/* ===== Photo Gallery ===== */
+/* ===== Masonry Photo Gallery ===== */
 
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:16px;
-margin-top:20px;
+.masonry{
+  column-count: 3;
+  column-gap: 16px;
+  margin-top: 16px;
 }
 
-.gallery img{
-width:100%;
-height:200px;
-object-fit:cover;
-border-radius:10px;
-transition:transform 0.25s ease, box-shadow 0.25s ease;
-cursor:pointer;
+.masonry-item{
+  display: inline-block;        /* 关键：配合 column */
+  width: 100%;
+  margin: 0 0 16px;
+  break-inside: avoid;          /* 防止被分栏切断 */
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform .22s ease, box-shadow .22s ease;
 }
 
-.gallery img:hover{
-transform:scale(1.05);
-box-shadow:0 10px 25px rgba(0,0,0,0.2);
+.masonry-item img{
+  width: 100%;
+  height: auto;                 /* 不裁剪，保持原始比例 → 就会出现你截图那样大小不一 */
+  display: block;
+}
+
+.masonry-item:hover{
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.14);
+}
+
+/* 响应式：平板 2 列，手机 1 列 */
+@media (max-width: 1100px){
+  .masonry{ column-count: 2; }
+}
+@media (max-width: 640px){
+  .masonry{ column-count: 1; }
 }
