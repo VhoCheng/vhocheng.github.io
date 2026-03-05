@@ -147,6 +147,7 @@ section[id]{scroll-margin-top:80px}
   column-count: 3;
   column-gap: 16px;
   margin-top: 16px;
+  max-width:1000px;
 }
 
 .masonry-item{
@@ -161,10 +162,11 @@ section[id]{scroll-margin-top:80px}
   transition: transform .22s ease, box-shadow .22s ease;
 }
 
-.masonry-item img{
-  width: 100%;
-  height: auto;                 /* 不裁剪，保持原始比例 → 就会出现你截图那样大小不一 */
-  display: block;
+.masonry img{
+  width:100%;
+  max-height:320px;
+  object-fit:cover;
+  border-radius:12px;
 }
 
 .masonry-item:hover{
