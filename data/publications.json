@@ -12,7 +12,8 @@
     "pdf": "velosubspace",
     "description": "Training-free 4D Flow MRI reconstruction with a shared temporal basis, circular phase regularization, and multi-coil data consistency.",
     "url": "",
-    "doi": ""
+    "doi": "",
+    "bib": "@inproceedings{cheng2026velosubspace,\n  title = {VeloSubspace: Phase-Aware Training-Free Reconstruction for Highly Accelerated 4D Flow MRI},\n  author = {Weihao Cheng and Huihui Ye},\n  booktitle = {MICCAI Workshop · CMRx4DFlow Challenge},\n  year = {2026},\n  note = {Accepted; proceedings details pending},\n}"
   },
   {
     "id": "medcollab",
@@ -27,7 +28,20 @@
     "pdf": "medcollab",
     "description": "Evidence-grounded clinical reasoning through structured multi-agent deliberation and hierarchical disease relation chains.",
     "url": "",
-    "doi": ""
+    "doi": "",
+    "bib": "@inproceedings{cheng2026medcollab,\n  title = {MedCollab: IBIS-Guided Multi-Agent Collaboration with Hierarchical Disease Relation Chains for Clinical Diagnosis},\n  author = {Yuqi Zhan and Xinyue Wu and Tianyu Lin and Yutong Bao and Xiaoyu Wang and Weihao Cheng and Huangwei Chen and Feiwei Qin and Zhu Zhu},\n  booktitle = {NLPCC},\n  year = {2026},\n  note = {Accepted; proceedings details pending},\n}"
+  },
+  {
+    "id": "cardiotwin",
+    "title": "CardioTwin: A Physio-GPM-Driven Multimodal Foundation Model and Causally Interpretable Fusion Framework for Cardiac Digital Twins",
+    "authors": "Weihao Cheng, Hangyu Zhu, and Youjia Ling",
+    "venue": "2026 Chinese Biomedical Engineering Conference and Innovative Healthcare Summit (BME2026), Suzhou, China.",
+    "year": "2026",
+    "status": "Conference abstract accepted for oral presentation",
+    "kind": "conference",
+    "role": "First author",
+    "url": "https://bme2026.sciconf.cn/",
+    "bib": "@misc{cheng2026cardiotwin,\n  title = {CardioTwin: A Physio-GPM-Driven Multimodal Foundation Model and Causally Interpretable Fusion Framework for Cardiac Digital Twins},\n  author = {Cheng, Weihao and Zhu, Hangyu and Ling, Youjia},\n  year = {2026},\n  note = {BME2026. Conference abstract accepted for oral presentation},\n  url = {https://bme2026.sciconf.cn/}\n}"
   },
   {
     "id": "pathlens",
@@ -43,7 +57,59 @@
     "description": "A lightweight pathology reasoner combining multi-agent Patho-CoT data synthesis with supervised and reinforcement learning.",
     "url": "https://doi.org/10.1016/j.knosys.2026.116261",
     "doi": "10.1016/j.knosys.2026.116261",
-    "code": "https://github.com/hovchen/PathLens"
+    "code": "https://github.com/hovchen/PathLens",
+    "bib": "@article{cheng2026pathlens,\n  title = {PathLens: A lightweight multimodal reasoner for in-depth pathology insights},\n  author = {Zhu Zhu and Huangwei Chen and Zhenyu Yan and Donghao Zhang and Yueyi Wu and Yuqi Zhan and Weihao Cheng and Manli Zhao and Weizhong Gu and Yifei Chen and Feiwei Qin and Gang Yu},\n  journal = {Knowledge-Based Systems},\n  year = {2026},\n  doi = {10.1016/j.knosys.2026.116261},\n}"
+  },
+  {
+    "id": "digestive-endoscopy",
+    "title": "Integrating Artificial Intelligence Into Endoscopy Education: Evidence, Gaps, and Future Directions",
+    "authors": "Weihao Cheng†, Shangxuan Li, and Zekai Yu",
+    "venue": "Digestive Endoscopy",
+    "year": "2026",
+    "status": "38(2), e70114",
+    "kind": "letter",
+    "role": "First & corresponding author",
+    "doi": "10.1111/den.70114",
+    "source": "Digesti..nd.pdf",
+    "image": "digestive-endoscopy",
+    "pdf": "digestive-endoscopy",
+    "url": "https://doi.org/10.1111/den.70114",
+    "description": "",
+    "bib": "@article{cheng2026digestiveendoscopy,\n  title = {Integrating Artificial Intelligence Into Endoscopy Education: Evidence, Gaps, and Future Directions},\n  author = {Weihao Cheng and Shangxuan Li and Zekai Yu},\n  journal = {Digestive Endoscopy},\n  year = {2026},\n  doi = {10.1111/den.70114},\n  note = {Letter to the Editor},\n}"
+  },
+  {
+    "id": "hepatology",
+    "title": "Advancing personalized risk assessment in post-TIPS hepatic encephalopathy: insights and future directions",
+    "authors": "Weihao Cheng and Zekai Yu†",
+    "venue": "Hepatology International",
+    "year": "2026",
+    "status": "20, 515–516",
+    "kind": "letter",
+    "role": "First author",
+    "doi": "10.1007/s12072-026-11043-1",
+    "source": "一区 top 一作.pdf",
+    "image": "hepatology",
+    "pdf": "hepatology",
+    "url": "https://doi.org/10.1007/s12072-026-11043-1",
+    "description": "",
+    "bib": "@article{cheng2026hepatology,\n  title = {Advancing personalized risk assessment in post-TIPS hepatic encephalopathy: insights and future directions},\n  author = {Weihao Cheng and Zekai Yu},\n  journal = {Hepatology International},\n  year = {2026},\n  doi = {10.1007/s12072-026-11043-1},\n  note = {Letter to the Editor},\n}"
+  },
+  {
+    "id": "ejr",
+    "title": "Artificial intelligence-assisted CCTA for coronary stenosis detection: Diagnostic promise, methodological nuances, and directions for clinical translation",
+    "authors": "Weihao Cheng† and Zekai Yu",
+    "venue": "European Journal of Radiology",
+    "year": "2026",
+    "status": "196, 112670",
+    "kind": "letter",
+    "role": "First & corresponding author",
+    "doi": "10.1016/j.ejrad.2026.112670",
+    "source": "D二区欧洲放射学 一作+一通.pdf",
+    "image": "ejr",
+    "pdf": "ejr",
+    "url": "https://doi.org/10.1016/j.ejrad.2026.112670",
+    "description": "",
+    "bib": "@article{cheng2026ejr,\n  title = {Artificial intelligence-assisted CCTA for coronary stenosis detection: Diagnostic promise, methodological nuances, and directions for clinical translation},\n  author = {Weihao Cheng and Zekai Yu},\n  journal = {European Journal of Radiology},\n  year = {2026},\n  doi = {10.1016/j.ejrad.2026.112670},\n  note = {Letter to the Editor},\n}"
   },
   {
     "id": "radiology",
@@ -58,7 +124,8 @@
     "pdf": "radiology-letter",
     "description": "A letter discussing cross-site generalization, longitudinal context, and evaluation of specialized radiology language models.",
     "url": "https://doi.org/10.1148/radiol.252758",
-    "doi": "10.1148/radiol.252758"
+    "doi": "10.1148/radiol.252758",
+    "bib": "@article{cheng2026radiology,\n  title = {Domain-Specific LLMs in Radiology: Considerations for Cross-Site and Temporal Robustness},\n  author = {Weihao Cheng and Zekai Yu},\n  journal = {Radiology},\n  year = {2026},\n  doi = {10.1148/radiol.252758},\n  note = {Letter to the Editor},\n}"
   },
   {
     "id": "pnas",
@@ -73,6 +140,7 @@
     "pdf": "pnas-letter",
     "description": "A letter on physical benchmarks, uncertainty analysis, and reproducible evaluation for generative AI in computational chemistry.",
     "url": "https://doi.org/10.1073/pnas.2529610122",
-    "doi": "10.1073/pnas.2529610122"
+    "doi": "10.1073/pnas.2529610122",
+    "bib": "@article{cheng2025pnas,\n  title = {Integrating generative AI and physical tests to strengthen claims about emergent phenomena},\n  author = {Weihao Cheng and Zekai Yu},\n  journal = {PNAS},\n  year = {2025},\n  doi = {10.1073/pnas.2529610122},\n  note = {Letter to the Editor},\n}"
   }
 ]

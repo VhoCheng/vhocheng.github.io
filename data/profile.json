@@ -1,0 +1,182 @@
+{
+  "motto": "梧高凤必至，花香蝶自来。",
+  "honors": [
+    [
+      "“Qiuxin Star”, Youth Hangdian Top 100 Outstanding Students",
+      "青春杭电百名优秀大学生求新之星",
+      "The only sophomore recipient in the School"
+    ],
+    [
+      "Candidate for “Self-improvement Star”, Youth Hangdian Top 100 Outstanding Students",
+      "青春杭电百名优秀大学生自强之星候选人",
+      ""
+    ],
+    [
+      "Outstanding Individual in Technological Innovation and Entrepreneurship",
+      "科技创新与创业先进个人",
+      "Ranked 1st in the School"
+    ],
+    [
+      "Academic Excellence Role Model, School of Communication Engineering",
+      "通信工程学院学业标兵",
+      ""
+    ],
+    [
+      "HDU Merit Student",
+      "校级三好学生",
+      ""
+    ],
+    [
+      "Outstanding Communist Youth League Member",
+      "优秀共青团员",
+      ""
+    ]
+  ],
+  "scholarships": [
+    "2026: English Learning Competition Special-Prize Scholarship (CNY 2,000) School of Foreign Languages, Hangzhou Dianzi University",
+    "2026: HDU First-Class Scholarship (CNY 1,500 × 2) Received twice; CNY 1,500 per award",
+    "2026: Innovation & Entrepreneurship Scholarship (CNY 200 × 2) Received twice; CNY 200 per award",
+    "2025: HDU Second-Class Scholarship (CNY 750)",
+    "2025: Innovation & Entrepreneurship Scholarship (CNY 200)",
+    "2024: HDU Second-Class Scholarship (CNY 750)"
+  ],
+  "funding": [
+    "2026: National Undergraduate Innovation and Entrepreneurship Training Program of China General Program · Project Leader · CNY 10,000 Smart Sentinel: 5G–AI Spatiotemporal Graph Intelligence for Resilient Emergency Medical Supply Scheduling and Digital-Twin Collaborative Decision-Making",
+    "2026: National Undergraduate Innovation and Entrepreneurship Training Program of China Key Program · Third-listed Member · CNY 20,000 AI and Machine Learning for Intelligent Sensing, Prediction, and Optimized Decision-Making in Logistics and Transportation",
+    "2026: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program Project Leader · CNY 10,000 Multi-Agent ECG–Imaging Fusion and Physiologically Constrained Generative Modeling for Early Warning of Myocardial Ischemia",
+    "2026: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program Fourth-listed Member · CNY 10,000 Unsupervised CT Metal Artifact Suppression with Physics Regularization and Attention Guidance",
+    "2026: Zhejiang Provincial Undergraduate Scientific and Technological Innovation Activities Program Deputy Project Leader · CNY 10,000 Electronic Vacuum Regulators for Agricultural Applications under Complex Operating Conditions in North America and China",
+    "2025: “Danghong Cup” Excellence in Scientific Research and Education Special Program, School of Computer Science, HDU Second-prize project approval · Core Member · CNY 3,000 A Multi-Agent Collaborative Pre-Consultation System for Urology",
+    "2025: Undergraduate Innovation and Entrepreneurship Training Program, School of Communication Engineering, HDU Key Project · Ranked 1/20 · Project Leader · CNY 3,000 Physio-GPM: Multimodal Foundation Models for Cardiac Digital Twins and Causally Interpretable Integrated Diagnosis and Treatment Completed early with an Excellent rating",
+    "2025: Undergraduate Innovation and Entrepreneurship Training Program, School of Communication Engineering, HDU General Project · Deputy Project Leader · CNY 1,000 Dynamic Instruction Execution with VLM-SLAM"
+  ],
+  "societies": [
+    [
+      "CCF",
+      "China Computer Federation",
+      "中国计算机学会",
+      "https://www.ccf.org.cn/"
+    ],
+    [
+      "CIC",
+      "China Institute of Communications",
+      "中国通信学会",
+      "https://www.china-cic.cn/"
+    ],
+    [
+      "CMES",
+      "Chinese Mechanical Engineering Society",
+      "中国机械工程学会",
+      "https://www.cmes.org/cmes"
+    ],
+    [
+      "CAAI",
+      "Chinese Association for Artificial Intelligence",
+      "中国人工智能学会",
+      "https://www.caai.cn/"
+    ],
+    [
+      "CSIG",
+      "China Society of Image and Graphics",
+      "中国图像图形学会",
+      "https://www.csig.org.cn/"
+    ],
+    [
+      "CSBME",
+      "Chinese Society of Biomedical Engineering",
+      "中国生物医学工程学会",
+      "https://www.csbme.org/"
+    ]
+  ],
+  "conferences": [
+    [
+      "ICLR",
+      "2027",
+      "https://iclr.cc/Conferences/2027"
+    ],
+    [
+      "MICCAI",
+      "2026",
+      "https://conferences.miccai.org/2026/"
+    ],
+    [
+      "NLPCC",
+      "2026",
+      "https://tcci.ccf.org.cn/conference/2026/"
+    ],
+    [
+      "CTESP",
+      "2026",
+      "https://www.ctesp.org/"
+    ],
+    [
+      "ICHI",
+      "2026",
+      "https://zhang-informatics.github.io/ICHI2026/"
+    ]
+  ],
+  "journals": [
+    [
+      "WJGS",
+      "World Journal of Gastrointestinal Surgery",
+      "https://www.wjgnet.com/1948-9366/index.htm"
+    ],
+    [
+      "WJP",
+      "World Journal of Psychiatry",
+      "https://www.wjgnet.com/2220-3206/index.htm"
+    ],
+    [
+      "WJG",
+      "World Journal of Gastroenterology",
+      "https://www.wjgnet.com/1007-9327/index.htm"
+    ]
+  ],
+  "experience": [
+    {
+      "organization": "Ant Group",
+      "role": "Intern · Ant Afu Health Business Group",
+      "description": "AI product promotion in healthcare.",
+      "date": null
+    },
+    {
+      "organization": "Chaoxing Xuexitong",
+      "role": "Campus Operations Intern",
+      "description": "Product promotion, market research, data monitoring, and content operations.",
+      "date": "August–September 2025"
+    },
+    {
+      "organization": "Gaotu",
+      "role": "Operations Trainee · Remote Training Program",
+      "description": "Education product operations and content promotion.",
+      "date": "July–August 2025"
+    },
+    {
+      "organization": "NetEase Games",
+      "role": "Campus Ambassador",
+      "description": "Campus engagement and product outreach.",
+      "date": null
+    },
+    {
+      "organization": "Xiaohongshu",
+      "role": "Campus Star Promoter",
+      "description": "Campus engagement and product outreach.",
+      "date": null
+    },
+    {
+      "organization": "Tonghuashun",
+      "role": "Campus Growth Ambassador",
+      "description": "Campus engagement and product outreach.",
+      "date": null
+    },
+    {
+      "organization": "GoodWe",
+      "role": "Campus Ambassador",
+      "description": "Campus engagement and product outreach.",
+      "date": null
+    }
+  ],
+  "certifications": [
+    "Large Language Model Development Engineer — Datawhale / Inspur Information"
+  ]
+}
