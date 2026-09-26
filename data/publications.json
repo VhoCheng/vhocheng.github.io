@@ -142,5 +142,27 @@
     "url": "https://doi.org/10.1073/pnas.2529610122",
     "doi": "10.1073/pnas.2529610122",
     "bib": "@article{cheng2025pnas,\n  title = {Integrating generative AI and physical tests to strengthen claims about emergent phenomena},\n  author = {Weihao Cheng and Zekai Yu},\n  journal = {PNAS},\n  year = {2025},\n  doi = {10.1073/pnas.2529610122},\n  note = {Letter to the Editor},\n}"
+  },
+  {
+    "id": "tbme",
+    "title": "Trustworthy Cardiac Digital Twins: An Intended-Use Assurance Framework for Multimodal Modeling and Clinical Translation",
+    "authors": "Weihao Cheng, Huihui Ye, and Huafeng Liu",
+    "venue": "IEEE Transactions on Biomedical Engineering (TBME)",
+    "year": "2026",
+    "kind": "submitted",
+    "status": "Submitted; not accepted",
+    "bib": "@unpublished{cheng2026tbme,\n  title = {Trustworthy Cardiac Digital Twins: An Intended-Use Assurance Framework for Multimodal Modeling and Clinical Translation},\n  author = {Weihao Cheng and Huihui Ye and Huafeng Liu},\n  year = {2026},\n  note = {Submitted to IEEE Transactions on Biomedical Engineering (TBME); not yet accepted}\n}",
+    "pdf": "tbme-submitted"
+  },
+  {
+    "id": "tnse",
+    "title": "Safe-Guarded Counterfactual Defense for Malware-Resilient Cyber–Physical Power Systems",
+    "authors": "Weihao Cheng, Haicheng Tu, Youjia Ling, Yongxiang Xia, and Xi Chen",
+    "venue": "IEEE Transactions on Network Science and Engineering (TNSE)",
+    "year": "2026",
+    "kind": "submitted",
+    "status": "Submitted; not accepted",
+    "bib": "@unpublished{cheng2026tnse,\n  title = {Safe-Guarded Counterfactual Defense for Malware-Resilient Cyber–Physical Power Systems},\n  author = {Weihao Cheng and Haicheng Tu and Youjia Ling and Yongxiang Xia and Xi Chen},\n  year = {2026},\n  note = {Submitted to IEEE Transactions on Network Science and Engineering (TNSE); not yet accepted}\n}",
+    "pdf": "tnse-submitted"
   }
 ]

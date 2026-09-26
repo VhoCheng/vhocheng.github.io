@@ -136,7 +136,7 @@
     {
       "organization": "Ant Group",
       "role": "Intern · Ant Afu Health Business Group",
-      "description": "LLM Agent / Agentic Reasoning、Dialogue & User Simulation、agent benchmark",
+      "description": "LLM Agents / Agentic Reasoning · Agent Benchmarks",
       "date": null
     },
     {
@@ -177,6 +177,23 @@
     }
   ],
   "certifications": [
-    "Large Language Model Development Engineer — Datawhale / Inspur Information"
+    "Large Language Model Development Engineer Datawhale · Inspur Information Skill-level assessment passed View certificate ↗",
+    "HarmonyOS Application Developer — Foundation Certification Huawei Developers 13 Nov 2025 · Valid through 12 Nov 2027 View certificate ↗",
+    "Zhejiang Provincial Computer Rank Examination — Level 2 Zhejiang Provincial Department of Education Python Programming",
+    "Zhejiang Provincial Computer Rank Examination — Level 3 Zhejiang Provincial Department of Education Computer Network Technology and Applications",
+    "Artificial Intelligence Trainer — Junior Alibaba DAMO Academy / Alibaba Cloud Training course and assessment · 10 May 2026 · Valid through 10 May 2027 View certificate ↗",
+    "Artificial Intelligence Trainer — Advanced Alibaba DAMO Academy / Alibaba Cloud Training course and assessment · 10 May 2026 · Valid through 10 May 2027 View certificate ↗",
+    "Design Professional Competency Certificate Alibaba Design Supply Chain Alibaba Design & Zhejiang University course · 17 May 2026 View certificate ↗",
+    "AI Application Creation — Certificate of Participation Miaowu × Chaoxing Xuexitong National University AI Creation Challenge · Completed an AI application View certificate ↗",
+    "Financial Literacy Practice Tonghuashun Seven-day practical program · Simulated trading and technical analysis · January 2025 View certificate ↗"
+  ],
+  "editorialServices": [
+    {
+      "role": "Guest Editor",
+      "publisher": "JoVE",
+      "collection": "Artificial Intelligence in Medical Imaging Diagnostics: Reproducible Protocols from Data Curation to Clinical Validation",
+      "url": "https://www.jove.com/cn/topical-collections/5797/artificial-intelligence-in-medical-imaging-diagnostics-reproducible-protocols-from-data-curation-to-clinical-validation",
+      "editorProfile": "https://www.jove.com/cn/topical-collections/editor/8992/weihao-cheng"
+    }
   ]
 }
